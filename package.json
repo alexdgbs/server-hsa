@@ -4,6 +4,9 @@
   "type": "module",
   "main": "server.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -15,3 +18,4 @@
     "paypal-rest-sdk": "^1.8.1"
   }
 }
+
